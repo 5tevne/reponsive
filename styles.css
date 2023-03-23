@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://usagif.com/wp-content/uploads/gif/outerspace-6.gif);background-size: cover;background-repeat: no-repeat; margin: 0;
+}
+h2{ 
+    font-family: 'Monoton', cursive;color: black;
+}
+a{
+    color:rgba(202, 24, 113, 0.568) ;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgba(0, 255, 255, 0.404);
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logoimg{
+    height: 60px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: rgba(126, 228, 123, 0.664);
+}
+@media(max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{padding: 10 px 0px;
+    }
+}
